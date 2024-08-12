@@ -1,0 +1,102 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: rgb(0, 118, 20);
+}
+a {
+  box-sizing: border-box;
+}
+table {
+  border-color: blue;
+}
+/* Các thuộc tính của CSS tại trang CSS refence w3c */
+/* Chuyển chữ hoa thường  */
+h2 {
+  text-transform: none;
+  /* Căn lề */
+  text-align: center;
+  /* visibility : ẩn hoặc hiện element  */
+}
+img {
+  transition: 1.5s;
+}
+input:checked ~ img {
+  opacity: 0;
+  /* visibility: hidden; */
+}
+#line_1 {
+  color: darkgreen;
+}
+h4.demo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.demo {
+  color: darkseagreen;
+}
+.demo2 {
+  font-size: 20px;
+}
+.item1 {
+  list-style: none;
+}
+* {
+  color: darkviolet;
+}
+div > p {
+  background-color: aqua;
+}
+.demo4 {
+  color: bisque;
+  background-color: blue;
+}
+h1 + h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* h1 + h2: chọn tác động lên thẻ h2 đứng ngay sau thẻ h1 */
+/* .demo5 + h3 {
+  color: dodgerblue;
+} */
+h1 ~ h3 {
+  color: darkcyan;
+}
+/* h1 ~ h3: chọn tác động tất cả thẻ h3 đứng sau h1 */
+[href] {
+  color: rgb(253, 127, 127);
+}
+[title~="thangg"] {
+  color: blue;
+}
+[title*="thang"] {
+  font-family: Arial, Helvetica, sans-serif;
+}
+[title|="pic"] {
+  color: green;
+}
+[title^="pic"] {
+  font-size: 20px;
+}
+[title$="4"] {
+  color: blue;
+}
+h4:hover {
+  color: brown;
+  font-size: 20px;
+}
+#line_2:hover {
+  color: cornflowerblue;
+  font-size: 30px;
+}
+.click:hover {
+  color: darkgreen;
+  background-color: darkorange;
+}
+.abb:active {
+  color: crimson;
+}
+.abc:link {
+  color: cornflowerblue;
+}
+.abc:visited {
+  color: crimson;
+}

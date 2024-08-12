@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My File</title>
+    <!-- internal -->
+    <style>
+      h1 {
+        font-size: 30px;
+        font-style: italic;
+      }
+      p {
+        color: tomato;
+      }
+    </style>
+    <!-- external -->
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href="/more_info/contact.html">Contact</a>
+    <a href="/more_info/myfile.html">My File</a>
+    <a href="/more_info/aboutme.html">About Me</a>
+    <!-- CSS: inline: tác động lên 1 ptu trong thẻ, 
+              internal: tách động lên 1 vùng trọn, 
+              external:  
+              giữa internal và external : cái nào viết sau sẽ ghi đè lên cái viết trước 
+              inline là style mạnh nhất -->
+    <h1 style="color: rgb(247, 86, 86)">My File</h1>
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul style="color: rgb(132, 73, 0)">
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet consectetur.</li>
+      <li>Lorem ipsum dolor sit.</li>
+    </ul>
+    <table style="border: 20px; color: blueviolet; border-color: black">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">
+            Describe
+            <tr>
+              <td></td>
+              <td>Value</td>
+              <td>Size</td>
+            </tr>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Glasses</td>
+          <td>200$</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>400$</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Watch</td>
+          <td>2.000$</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>4.000$</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="demo3">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <blockquote><p>Lorem ipsum dolor sit.</p></blockquote>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <span class="demo4">Lorem ipsum dolor sit amet.</span>
+    <h1>Lorem, ipsum dolor.</h1>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h3 class="demo5">Lorem, ipsum dolor.</h3>
+    <h3>Lorem, ipsum dolor.</h3>
+  </body>
+</html>
