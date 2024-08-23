@@ -100,3 +100,11 @@ h4:hover {
 .abc:visited {
   color: crimson;
 }
+.div_elm:empty {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+}
+h2:target {
+  color: red;
+}
