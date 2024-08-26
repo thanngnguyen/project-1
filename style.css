@@ -109,3 +109,22 @@ h4:hover {
 h2:target {
   color: red;
 }
+/* tác động vào thẻ con đầu tiên */
+p:first-child {
+  color: chocolate;
+  font-size: 30px;
+}
+/* tác động vào thẻ con cuối cùng */
+p:last-child {
+  color: deeppink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Thẻ con thứ n */
+p:nth-child(3) {
+  font-size: 25px;
+}
+/* tác động vào phần tử chẵn: p:nth-child(enven); ptu lẻ: p:nth-child(odd) */
+/* chọn ra thẻ con duy nhất */
+p:only-child {
+  color: indianred;
+}
